@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #F59E0B;
+    --dark-grey: #6B7280;
+    --off-white: #e9e9e9;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/* container css */
+
+.container {
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    ;
+}
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* nav */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+.navigation .link {
+    color: white;
+
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+
+/* header */
+
+.hero {
+    padding: 3rem;
+}
+
+.hero .img-hero {
+    /* padding-top: 2rem; */
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .header-hero {
+    color: var(--dark-grey);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/* section */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding-inline-start:0px;
+}
+
+/* blogs */
+
+.blogs  a {
+    font-weight: bold;
+    font-size: x-large;
+    color: var(--dark-grey)
+}
+
+.blogs a:hover {
+    color: var(--primary-color);
+}
