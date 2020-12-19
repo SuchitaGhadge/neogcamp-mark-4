@@ -152,7 +152,7 @@ hr {
 .blogs  a {
     font-weight: bold;
     font-size: x-large;
-    color: var(--dark-grey)
+    color: black;
 }
 
 .blogs a:hover {
