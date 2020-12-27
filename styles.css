@@ -46,7 +46,7 @@ hr {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
-    ;
+    
 }
 
 /* lists */
@@ -64,7 +64,7 @@ hr {
 
 .navigation {
     background-color: var(--primary-color);
-    /* color: white; */
+    color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
@@ -150,4 +150,21 @@ hr {
 
 .blogs a:hover {
     color: var(--primary-color);
+}
+
+.img-blog {
+    display: block;
+    border: 2px solid black;
+    position: relative;
+    margin: auto;
+    width : 800px;
+    height: 600px;
+}
+
+.blogs p {
+    margin: 1.2rem 0rem;
+}
+
+.blogs h1{
+   margin-bottom: 2rem;  
 }
