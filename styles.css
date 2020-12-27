@@ -76,7 +76,7 @@ hr {
 
 .navbar-light .navbar-brand {
     font-weight: bold;
-    font-size: 1.2rem;
+    /* color: white; */
 }
 
 /* header */
@@ -120,12 +120,12 @@ hr {
     background-color: var(--primary-color);
     padding: 2rem 0rem;
     text-align: center;
-    color:white;
+    /* color:white; */
     border-top-right-radius: 1rem;
 }
 
 .footer .link {
-    color: white;
+    color: var(--off-white);
 }
 
 .footer .footer-header {
@@ -136,8 +136,12 @@ hr {
     padding-inline-start:0px;
 }
 
-/* blogs */
+.footer a:hover{
+ color: var(--dark-grey);   
+}
 
+/* blogs */
+/*  */
 .blogs  a {
     font-weight: bold;
     font-size: x-large;
