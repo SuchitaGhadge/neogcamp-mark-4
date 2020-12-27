@@ -64,31 +64,20 @@ hr {
 
 .navigation {
     background-color: var(--primary-color);
-    color: white;
+    /* color: white; */
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1.1rem;
 
-}
-
-.navigation .link {
+.nav-link{
     color: white;
-
 }
 
-.navigation .nav-pills {
-    text-align: right;
-}
-
-.navigation .link-active {
+.navbar-light .navbar-brand {
     font-weight: bold;
+    font-size: 1.2rem;
 }
-
-
 
 /* header */
 
