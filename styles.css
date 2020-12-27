@@ -125,7 +125,7 @@ hr {
 }
 
 .footer .link {
-    color: var(--off-white);
+    color: black;
 }
 
 .footer .footer-header {
@@ -137,7 +137,7 @@ hr {
 }
 
 .footer a:hover{
- color: var(--dark-grey);   
+ color: white;   
 }
 
 /* blogs */
