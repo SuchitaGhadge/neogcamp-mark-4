@@ -87,8 +87,8 @@ color: var(--dark-grey);
     color: white;
 }
 
-.navbar-light .navbar-brand {
-    font-weight: bold;
+.navbar-dark .navbar-brand {
+    font-weight: bolder;
     /* color: white; */
 }
 
@@ -133,7 +133,7 @@ color: var(--dark-grey);
     background-color: var(--primary-color);
     padding: 2rem 0rem;
     text-align: center;
-    /* color:white; */
+    color:white;
     border-top-right-radius: 1rem;
    
 }
@@ -141,7 +141,7 @@ color: var(--dark-grey);
 
 
 .footer .link {
-    color: black;
+    color: #fff;
 }
 
 .footer .footer-header {
@@ -153,7 +153,7 @@ color: var(--dark-grey);
 }
 
 .footer a:hover{
- color: white;   
+    font-weight: 600;
 }
 
 /* blogs */
