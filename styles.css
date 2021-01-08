@@ -156,6 +156,10 @@ color: var(--dark-grey);
     font-weight: 600;
 }
 
+.social {
+    width:40px;
+    margin-top:5px;
+}
 /* blogs */
 /*  */
 .blogs  a {
@@ -169,7 +173,7 @@ color: var(--dark-grey);
 }
 
 .img-blog {
-    display: block;
+    /* display: block; */
     border: 2px solid black;
 }
 
