@@ -1,97 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet"> 
+
+    <!-- Materialize icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Actual M css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+
     <title>Projects | Suchita Ghadge</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     
+
 </head>
 
 <body>
-    <nav class=" navigation navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">iAmDeveloper</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="/blogs.html">Blogs</a>
-              </li>
+    
+  <section class="fnavbar">
+    <nav class="nav-fixed">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Suchita Ghadge</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="/blogs.html">Blogs</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Home</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/blogs.html">Blogs</a></li>
+      </ul>
+    
+  </section>
+
+  <section class="fheader">
+    <header class="hero center-align">
+      <img src="/images/portfoilo_update.svg" alt="hero_img" class="hero-img responsive-img">
+      <h1>my <span style="color: var(--primary-color);">projects</span></h1>
+    </header>
+  </section>
+
+  <section class="fcards">
+    <div class="row" style="padding-left: 50px; padding-right: 50px;">
+      <div class="col s12 m12 l4" style="padding: 50px 10px;"> 
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator img-cards" src="/images/cafe.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">CafeKing<i class="material-icons right">more_vert</i></span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">CafeKing<i class="material-icons right">close</i></span>
+            <p>This is a sample web page for cafe created using Materialize CSS.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/SuchitaGhadge/CafeKing" class="btn card-btn primary-link waves-effect">view code</a>
+            <a href="https://mycafeking.netlify.app/" class="btn primary-link waves-effect">view live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m12 l4" style="padding: 50px 10px;"> 
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator img-cards" src="/images/travel.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Travel Guide<i class="material-icons right">more_vert</i></span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Travel Guide<i class="material-icons right">close</i></span>
+            <p>Love Traveling? Love Historical places? Here is a guide to travel across Maharashtra and visit Historical places and forts in Maharashtra. This app is created using ReactJs and pure css in Codesandbox.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://codesandbox.io/s/travel-guide-7trgp" class="btn card-btn primary-link waves-effect">view code</a>
+            <a href="https://7trgp.csb.app/" class="btn primary-link waves-effect">view live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m12 l4" style="padding: 50px 10px;"> 
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator img-cards" src="/images/minions.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">talk banana app<i class="material-icons right">more_vert</i></span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">talk banana app<i class="material-icons right">close</i></span>
+            <p>Are you a die heart fan of a minions? This is a fun translator which translates a normal English language to a language spoken by minions.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/SuchitaGhadge/Talk-Banana" class="btn card-btn primary-link waves-effect">view code</a>
+            <a href="https://speaklikebanana.netlify.app/" class="btn primary-link waves-effect">view live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m12 l4" style="padding: 50px 10px;">
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator img-cards" src="images/quenya.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">quenya translation app<i class="material-icons right">more_vert</i></span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">quenya translation app<i class="material-icons right">close</i></span>
+            <p>Are you a fan of the Lord of the Rings? This Quenya translationapp translate an English language to the fictional language called quenya.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/SuchitaGhadge/Quenya-translator" class="btn card-btn primary-link waves-effect">view code</a>
+            <a href="https://speaklikebanana.netlify.app/" class="btn primary-link waves-effect">view live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m12 l4" style="padding: 50px 10px;">
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator img-cards" src="images/emoji.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">funn emojis<i class="material-icons right">more_vert</i></span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">funn emojis<i class="material-icons right">close</i></span>
+            <p>My first React app which tells the meaning of travel emojis. Just click on emojis or search an emoji in search box to know what does it mean. This project is created on Codesandbox</p>
+          </div>
+          <div class="card-action">
+            <a href="https://codesandbox.io/s/funn-emojis-cfhmq" class="btn card-btn primary-link waves-effect">view code</a>
+            <a href="https://cfhmq.csb.app/" class="btn primary-link waves-effect">view live</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+    <section class="footer">
+      <footer class="footer-one">
+        <div class="row">
+          <div class="col s12">
+            <h4 class="white-text center-align">Connect to me socially</h4>
+            <ul class="center-align">
+              <li class="list-item-inline"><a class="social-links white-text" target="_blank" href="https://github.com/SuchitaGhadge">Github</a></li>
+              <li class="list-item-inline"><a class="social-links white-text" target="_blank" href="https://in.linkedin.com/in/suchita-ghadge-714766107">LinkedIn</a></li>
+              <li class="list-item-inline"><a class="social-links white-text" target="_blank" href="https://www.instagram.com/suchita_ghadge/">Instagram</a></li>
             </ul>
           </div>
         </div>
-      </nav>
+        <footer class="footer-two">
+          <div class="row">
+            <div class="col s12">
+              <p class="center-align white-text"><i class="tiny material-icons">code</i> by Suchita Ghadge</p>
+            </div>
+          </div>
+        </footer>
+      </footer>
+    </section>
 
-
-
-    <header class="hero">
-
-        <h1 class="header-hero">my <span style="color: var(--primary-color);">projects</span></h1>
-    </header>
-
-
-    <ul class="list-non-bullet" reversed>
-        <li>
-            <h2>talk banana app</h2>
-            <small>December 2020.</small>
-            <p>Are you a die heart fan of a minions? This is a fun translator which translates a normal English language to a language spoken by minions.</p>
-            <a class="link prim-link" href="https://github.com/SuchitaGhadge/Talk-Banana">view code</a>
-            <a class="link second-link" href="https://speaklikebanana.netlify.app/">view live</a>
-        </li>
-
-        <hr>
-
-        <li>
-            <h2>quenya translation app</h2>
-            <small>December 2020.</small>
-            <p>Are you a fan of the Lord of the Rings? This Quenya translationapp translate an English language to the fictional language called quenya.</p>
-            <a class="link prim-link" href="https://github.com/SuchitaGhadge/Quenya-translator">view code</a>
-            <a href="https://quenya-translator.netlify.app/" class="link second-link">view live</a>
-        </li>
-
-        <hr>
-
-        <li>
-            <h2>funn emojis</h2>
-            <small>December 2020.</small>
-            <p>My first React app which tells the meaning of travel emojis. Just click on emojis or search an emoji in search box to know what does it mean. </p>
-            <a class="link prim-link" href="https://codesandbox.io/s/funn-emojis-cfhmq">view code</a>
-            <a class="link second-link"href="https://cfhmq.csb.app/">view live</a>
-        </li>
-
-        <hr>
-        
-    </ul>
-
- 
-
-    <footer class="footer">
-      <div class="footer-header">Connect to me socially</div>
-      <ul class="social-links list-non-bullet">
-          <li class="list-item-inline"><a class="link" target = "_blank" href="https://github.com/SuchitaGhadge"><img src="./images/icons/github.svg" alt="Github" class="social"></a></li>
-          <li class="list-item-inline"><a target = "_blank" class="link"
-                  href="https://in.linkedin.com/in/suchita-ghadge-714766107"><img src="./images/icons/linkedin.svg" alt="LinkedIn" class="social"></a></li>
-          <li class="list-item-inline"><a target = "_blank" class="link"
-                  href="https://www.instagram.com/suchita_ghadge/"><img src="./images/icons/instagram.svg" alt="Instagram" class="social"></a>
-          </li>
-      </ul>
-  </footer>
-
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
+<!-- Jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+
+<!-- M script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- custom js -->
+<script src="/js/loader.js"></script>
 
 </html>

@@ -4,110 +4,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet"> 
+
+    <!-- Materialize icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Actual M css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
     <title>Home | Suchita Ghadge</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
 
 </head>
 
 <body>
-    <!-- <nav class="navigation container ">
-        <div class="nav-brand">iAmDeveloper </div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link link-active" href="/">Home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/projects.html">Projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/blogs.html">Blogs</a>
-            </li>
-        </ul>
 
-    </nav> -->
-
-    <nav class=" navigation navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">iAmDeveloper</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/blogs.html">Blogs</a>
-                    </li>
-                </ul>
+    <section class="fnavbar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">Suchita Ghadge</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/blogs.html">Blogs</a></li>
+              </ul>
             </div>
-        </div>
-    </nav>
-
-    <header class="hero">
-        <img class="img-hero" src="images/hero3.svg" alt="hero">
-        <h1 class="header-hero">I am a <span style="color: var(--primary-color);">Web Developer</span></h1>
-    </header>
-
-    <section class="section ow">
-        <div class="container container-center">
-            <h1>technologies </h1>
-            <p>I'm familiar with HTML5, CSS3, JavaScript, Python3, Arduino programming</p>
-        </div>
-
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="#">Home</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/blogs.html">Blogs</a></li>
+          </ul>
+        
     </section>
 
-    <section class="section">
-        <div class="container container-center">
-            <h1>work experience</h1>
-            <p>I have worked as a Robotics trainer at SP Robotics, Borivali branch. As well as worked as a private tutor for Mathematics and Programming subjects.</p>
-            <p>Completed 6 months of internship at Rahson infotech LLP as a Wordpress Web Developer.</p>
-
-        </div>
-
-        <section class="section ow">
-            <div class="container container-center">
-                <h1>Projects</h1>
-                <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
-                <a class="link prim-link" href="/projects.html">see Projects</a>
+    <section class="fheader">
+        <header class="hero container">
+          <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel grey lighten-5 z-depth-1">
+              <div class="row valign-wrapper">
+                <div class="col s2">
+                  <img src="images/suchita.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s10">
+                    <h6>
+                        Hello, My name is <span style="color: var(--primary-color); font-weight:bold">Suchita Ghadge</span>. I am a Web Developer. This website is developer my me.
+                    </h6>
+                </div>
+              </div>
             </div>
+          </div>
+            
+        </header>
+    </section>
 
-        </section>
+    <section class="description">
+      <div class="section container grey lighten-2">
+        <h1 class="center-align">technologies</h1>
+        <p>I am fimiliar with HTML5, CSS, JavaScript, Materialize CSS, Bootstrap, ReactJs, Python, C, Aurduino Programming, Github, Netlify deployment. </p>
+      </div>
+    </section>
 
-        <section class="section">
-            <div class="container container-center">
-                <h1>blogs </h1>
-                <p>I like document my journey and write blogs on historical temples. </p>
-                <a class="link second-link" href="/blogs.html">Read Blogs</a>
-            </div>
+    <section class="description">
+      <div class=" section container" >
+        <h1 class="center-align">
+          work experience
+        </h1>
+        <p>I have worked as a Robotics trainer at SP Robotics, Borivali branch. As well as a private tutor for Mathematicsand programming subject.</p>
+        <p>I have completed 6 months of internship at Rahson Infotech LLP as a wordpress Web Developer.</p>
+      </div>
+    </section>
 
-        </section>
+    <section class="description">
+      <div class="section container grey lighten-2">
+        <h1 class="center-align">
+          projects
+        </h1>
+        <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
+        <a href="/projects.html" class="btn primary-link waves-effect">See projects</a>
+      </div>
+    </section>
 
-        <footer class="footer">
-            <div class="footer-header">Connect to me socially</div>
-            <ul class="social-links list-non-bullet">
-                <li class="list-item-inline"><a class="link" target = "_blank" href="https://github.com/SuchitaGhadge"><img src="./images/icons/github.svg" alt="Github" class="social"></a></li>
-                <li class="list-item-inline"><a class="link" target = "_blank"
-                        href="https://in.linkedin.com/in/suchita-ghadge-714766107"><img src="./images/icons/linkedin.svg" alt="LinkedIn" class="social"></a></li>
-                <li class="list-item-inline"><a class="link" target = "_blank"
-                        href="https://www.instagram.com/suchita_ghadge/"><img src="./images/icons/instagram.svg" alt="Instagram" class="social"></a>
-                </li>
+    <section class="description">
+      <div class="section container">
+        <h1 class="center-align">
+          blogs
+        </h1>
+        <p>I like to document my journey and write technical and non-technical blogs</p>
+        <a href="/blogs.html" class="btn primary-link waves-effect">See blogs</a>
+      </div>
+    </section>
+
+    <section class="footer">
+      <footer class="footer-one">
+        <div class="row">
+          <div class="col s12">
+            <h4 class="white-text center-align">Connect to me socially</h4>
+            <ul class="center-align">
+              <li class="list-item-inline"><a class="social-links white-text" target="_blank" href="https://github.com/SuchitaGhadge">Github</a></li>
+              <li class="list-item-inline"><a class="social-links white-text" target="_blank" href="https://in.linkedin.com/in/suchita-ghadge-714766107">LinkedIn</a></li>
+              <li class="list-item-inline"><a class="social-links white-text" target="_blank" href="https://www.instagram.com/suchita_ghadge/">Instagram</a></li>
             </ul>
+          </div>
+        </div>
+        <footer class="footer-two">
+          <div class="row">
+            <div class="col s12">
+              <p class="center-align white-text"><i class="tiny material-icons">code</i> by Suchita Ghadge</p>
+            </div>
+          </div>
         </footer>
+      </footer>
+    </section>
 
-
-
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
+<!-- Jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+
+<!-- M script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- custom js -->
+<script src="/js/loader.js"></script>
 
 </html>
