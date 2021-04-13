@@ -7,6 +7,10 @@ html{
     font-family: 'Bree Serif', serif;
 }
 
+body{
+    background: #d1c4e9;
+}
+
 .nav-wrapper {
     background-color: var(--primary-color);
   
@@ -30,7 +34,7 @@ html{
 }
 
 .primary-link:hover{
-    background-color: #673ab7;
+    background-color: #9575cd;
 }
 
 .list-item-inline {
@@ -51,12 +55,6 @@ html{
 /* button */
 .card-btn{
     margin: 5px 5px;
-}
-
-/* card-image */
-.img-cards {
-    width: 640px;
-    height:426px;
 }
 
 /* blog */
