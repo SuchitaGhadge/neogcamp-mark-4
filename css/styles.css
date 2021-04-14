@@ -83,5 +83,6 @@ hr {
 
 .footer-two{
     background: #673ab7;
-    margin: 0;
+
+    bottom: 0px;
 }
