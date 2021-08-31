@@ -4,7 +4,9 @@
 
 }
 
-html{
+*{
+    margin: 0;
+    padding: 0;
     font-family: 'Bree Serif', serif;
 }
 
@@ -57,7 +59,21 @@ body{
 }
 
 /* cards */
+/* card title */
+.card-title{
+letter-spacing: 1.5px;
+}
+
+/* p */
+.content{
+    line-height: 1.5rem;
+    letter-spacing: 1.5px;
+}
+
 /* button */
+.btn{
+    letter-spacing: 2px;
+}
 .card-btn{
     margin: 5px 5px;
 }
