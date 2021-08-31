@@ -36,7 +36,7 @@ body{
     background-color: var(--primary-color);
 }
 
-.primary-link:hover{
+.primary-link:hover, .primary-link:focus{
     background-color: var(--secondary-color);
 }
 
@@ -74,8 +74,11 @@ letter-spacing: 1.5px;
 .btn{
     letter-spacing: 2px;
 }
+.btn:hover, .btn:focus{
+    background-color: var(--secondary-color);
+}
 .card-btn{
-    margin: 5px 5px;
+    margin: 5px 5px;  
 }
 
 /* blog */
