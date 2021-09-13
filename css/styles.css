@@ -11,7 +11,7 @@
 }
 
 body{
-    background: #ede7f6;
+    background: #e7dbfa;
 }
 
 .nav-wrapper {
@@ -113,7 +113,7 @@ hr {
     height: auto;
 }
 
-.responsive-img{
+.blog-img{
     border: 1px solid #000;
     border-radius: 0.5rem;
 }
@@ -121,6 +121,12 @@ hr {
 i.left{
     margin: 0px;
 }
+
+.topic_heading{
+    padding-left: 1rem;
+    color: var(--primary-color);
+}
+
 /*footer  */
 
 .footer-one{
@@ -129,5 +135,5 @@ i.left{
 
 .footer-two{
     background: #673ab7;
-    bottom: 0px;
+    margin: 0;
 }

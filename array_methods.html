@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet"> 
+
+    <!-- Materialize icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Actual M css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <title>3 must know array methods in JavaScript</title>
+</head>
+<body>
+    <section class="container">
+        <h4 class="blog-header link center-align">3 must know array methods in JavaScript</h4>
+            <p class="blog-content">Hey everyone, in this blog we are going to discuss 3 array methods in Javascript    which are useful in accessing arrays in JS. <br>
+            As you all know array is a single variable that is used to store different elements. It is often used when we want to store a list of elements and access them by a single variable. Unlike most languages where an array is a reference to the multiple variables, in JavaScript array is a single variable that stores multiple elements. <br> <br>
+            I have divided this blog into three parts. In the first part, I will discuss how to insert and remove an element from the start of an array. In the below example I have created an array 'numbers' which stores a list of string numbers. let's start with the first method: <br>
+           <h5><span class="topic_heading">shift(): Remove an element from the beginning of an array</span></h5>
+	
+        </p>
+        <br>
+        <section class="image center-align">
+          <img class="responsive-img blog-img" src="./images/shift_array.png" alt="shift_array">
+          <caption><p class="center-align">shift method</p></caption>
+        </section>
+        <p class="blog-content">
+            shift() removes the first element from the start of an array and returns the removed element. <br>
+            <h5><span class="topic_heading">unshift(): Add elements to the beginning of an array</span></h5>
+        </p>
+        <br>
+        <section class="image center-align">
+          <img class="responsive-img blog-img" src="./images/unshift_array.png" alt="unshift_array">
+          <caption><p class="center-align">unshift method</p></caption>
+        </section>
+        <p class="blog-content">
+            unshift() inserts a new element at the start of an array and returns the new array length. 
+            <br>
+            <br>
+            Moving on to the second part of a blog. Here I will tell you how to insert and delete elements from the end of an array. 
+            <h5><span class="topic_heading">
+                    pop(): Remove an element from the end of an array
+                </span>
+            </h5>
+        </p>
+        <br>
+        <section class="image center-align">
+            <img class="responsive-img blog-img" src="./images/pop_array.png" alt="pop_array">
+            <caption><p class="center-align">pop method</p></caption>
+        </section>
+        <p class="blog-content">
+            pop() removes the last element of an array and returns the removed item.
+          <br>
+          <h5><span class="topic_heading">push(): Add elements to the end of an array</span></h5>
+        </p>
+        <br>
+        <section class="image center-align">
+            <img class="responsive-img blog-img" src="./images/push_array.png" alt="unshift_array">
+            <caption><p class="center-align">push method</p></caption>
+        </section>
+        <p class="blog-content">
+            push() inserts an element at the end of an array and returns the new array length. <br>  <br>
+            Now in the third part of a blog, I will discuss how to insert and delete elements from the middle of an array. To delete or insert an element into the middle of an array we have to use the following method:
+            <h5><span class="topic_heading">
+                splice(): Remove/insert an element from the middle of an array
+            </span>
+        </h5>
+        </p>
+        <br>
+        <section class="image center-align">
+            <img class="responsive-img blog-img" src="./images/splice_array.png" alt="splice_array">
+            <caption><p class="center-align">splice method</p></caption>
+        </section>
+        <p class="blog-content">
+            splice() takes 3 arguments, 1st  argument shows the index of an element that will be deleted. 2nd argument is the number of elements you want to delete. In our example, we are deleting one element at index 2. And the last argument takes an element you want to insert in place of a deleted element.  You can delete more than one element by mentioning the number of elements you want to delete. If you don't want to add any element then simply put the 3rd argument blank. <br>
+            splice() returns the deleted element.
+        </p>
+    </section>
+    <br>
+    <section class="blog-links">
+        <div class="row">
+            <div class="col s12 m12 l6 left-align">
+                <p><i class="material-icons left link">chevron_left</i>
+                  <a href="./blogs.html" class="link">blog page</a></p>
+            </div>
+            <div class="col s12 m12 l6 right-align">
+              <p><i class="material-icons right link">chevron_right</i>
+                <a href="./ancient_shiva_temple.html" class="link">An ancient Ambareshwar Shiva Temple</a></p>
+            </div>
+        </div>
+    </section>
+   
+        <!-- footer -->
+        <section class="footer">
+          <footer class="footer-one">
+            <div class="container">
+              <div class="row">
+                <div class="col l12 s12">
+                  <h4 class="white-text center-align">Social media presence</h4>
+                  <ul class="center-align">
+                    <li class="list-item-inline"><a class="social-links white-text" target="_blank" href="https://github.com/SuchitaGhadge">Github</a></li>
+                    <li class="list-item-inline"><a class="social-links white-text" target="_blank" href="https://in.linkedin.com/in/suchita-ghadge-714766107">LinkedIn</a></li>
+                    <li class="list-item-inline"><a class="social-links white-text" target="_blank" href="https://www.instagram.com/suchita_ghadge/">Instagram</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row footer-two">
+              <div class="col s12">
+                <p class="white-text left-align"><i class="material-icons left">code</i> by Suchita Ghadge</p>
+              </div>
+            </div>
+          </footer>
+        </section>
+  
+</body>
+</html>
