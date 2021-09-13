@@ -99,12 +99,27 @@ a{
 
 .blog-content{
     padding-left: 1rem;
+    font-size: 18px;
 }
 
 hr {
     margin: 2rem 0;
 }
 
+.image{
+    min-height: 150px;
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.responsive-img{
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+}
+i.left{
+    margin: 0px;
+}
 /*footer  */
 
 .footer-one{
